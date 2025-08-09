@@ -1,7 +1,7 @@
 
 # JCX POS - 智慧平板點餐系統
 
-![JCX POS Logo](assets/images/logo.png)
+
 
 JCX POS 是一套專為中小型餐飲業者設計的現代化、跨平台的平板點餐系統（Point of Sale）。基於 Flutter 框架開發，提供流暢的使用者體驗，並整合 Firebase 雲端服務，實現資料同步與離線操作功能。
 
