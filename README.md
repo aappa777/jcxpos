@@ -159,7 +159,12 @@ JCX POS 是一套專為現代餐飲業設計的全方位解決方案，旨在透
     *   **操作日誌**: 系統會記錄關鍵操作（如：作廢、折扣、日結），便於追溯。
     *   **雲端數據**: 所有資料儲存在安全的 Firebase 雲端，防止本地設備損壞導致的數據遺失。
   
-   jcxpos/
+### 📂 專案結構 (Project Structure)
+
+本專案遵循功能導向的分層架構，將 UI、狀態管理、業務邏輯和資料模型清晰地分開，以便於維護和擴展。
+
+```
+jcxpos/
 ├── .github/workflows/      # GitHub Actions CI/CD 工作流程設定
 │   ├── release-apk.yml       # (私有庫) 當推送到 main 分支時，建置並簽署 APK，建立 GitHub Release
 │   └── build-and-release.yml # (公有庫) 當私有庫更新時，建置 APK 並發布到公有庫
@@ -337,3 +342,4 @@ JCX POS 是一套專為現代餐飲業設計的全方位解決方案，旨在透
 ├── analysis_options.yaml     # Dart 分析器與 Linter 的規則設定
 └── pubspec.yaml              # 專案依賴與設定檔
                               # 定義 Flutter 版本、專案名稱、第三方套件等
+```
